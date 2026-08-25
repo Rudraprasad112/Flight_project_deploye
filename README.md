@@ -15,7 +15,7 @@ The pipeline works like this:
 
 **S3 → EventBridge → Step Functions → Glue Crawler → Glue Data Catalog → Glue ETL → Redshift**
 
-![Architecture Diagram]("https://github.com/Rudraprasad112/Flight_project_deploye/blob/5b45ebb47d39e26d0e1f6d199b1ccb1397b07be6/Architecture_diagram.png")
+![Architecture Diagram]("https://github.com/Rudraprasad112/Flight_project_deploye/blob/main/Architecture_diagram.png")
 
 
 At the end of the workflow, SNS sends a notification about whether the Glue job was successful or failed. The Step Functions configuration contains separate success and failure notification states.
